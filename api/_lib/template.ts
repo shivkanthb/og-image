@@ -101,8 +101,8 @@ function getCss(theme: string, fontSize: string) {
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
         color: ${foreground};
-        line-height: 1.8;
-        max-width: 600px;
+        line-height: 1.5;
+        max-width: 960px;
     }`;
 }
 
